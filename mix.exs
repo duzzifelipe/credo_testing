@@ -19,6 +19,7 @@ defmodule CredoTesting.MixProject do
 
   defp deps do
     [
+      {:credo, "~> 1.6", only: [:test, :dev]}
     ]
   end
 end
